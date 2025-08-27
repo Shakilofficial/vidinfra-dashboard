@@ -63,7 +63,7 @@ Vidinfra Dashboard is a modern web application for managing CDN distributions, a
    Create a `.env.local` file in the root directory and set:
 
    ```
-   NEXT_PUBLIC_BASE_API_URL=https://api-staging.tenbyte.io/cdn
+   NEXT_PUBLIC_BASE_API_URL= https://api-staging.tenbyte.io/cdn
    ```
 
 4. **Run the development server:**
@@ -119,19 +119,16 @@ src/
 - **API Endpoint:**  
   Change `NEXT_PUBLIC_BASE_API_URL` in `.env.local` for different environments.
 
-## Deployment
-
-Deploy easily on [Vercel](https://vercel.com/) or any platform supporting Next.js App Router.
-
 ## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+1. Fork repository
+2. Create branch: `git checkout -b feature/your-feature`
+3. Commit changes: `git commit -m "Add feature"`
+4. Push branch: `git push origin feature/your-feature`
+5. Open a Pull Request
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-For support or inquiries,
-# vidinfra-dashboard
+**Developed by [Md. Shakil Hossain](mailto:mrshakilhossain@outlook.com)**
